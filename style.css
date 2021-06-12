@@ -191,9 +191,11 @@
     padding: 2.4rem;
     background: #fff;
     position: relative;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
     /* box-shadow: 0 11px 15px rgba(0,0,0,0.3); */
 }
-.sec-section::before {
+/* .sec-section::before {
     position: absolute;
     content: '';
     width: 100%;
@@ -203,7 +205,7 @@
     background: rgba(0,0,0,0.5);
     filter: blur(10px);
     z-index: -2;
-}
+} */
 .sec-content {
     display: grid;
     height: 100%;
@@ -809,8 +811,8 @@
     color: #00ACDC;
     font-weight: 600;
 }
-
 .final-sec {
+    width: 1366px;
     padding: 1.3rem 5.3rem;
     font-weight: 700;
     color: #fff;
